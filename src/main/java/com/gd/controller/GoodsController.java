@@ -70,7 +70,7 @@ public class GoodsController {
 			out.print("修改失败");
 		}
 	}
-	/*商品删除*/
+	/*1商品删除1*/
 	@RequestMapping("/delete")
 	public void delete(int goodsid,HttpServletResponse response) throws IOException{
 		response.setContentType("text/html;charset=utf-8");
